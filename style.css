@@ -1,0 +1,147 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.inputBox {
+    width: 100%;
+}
+
+
+.myOwnInput {
+    margin: 0 0 20px 0;
+}
+
+.mainWindow {
+    padding: 30px;
+    width: 40%;
+    margin: 0 auto;
+    max-width: 700px;
+    box-shadow: 1px 4px 10px 4px rgba(115,111,111,0.37);
+    -webkit-box-shadow: 1px 4px 10px 4px rgba(115,111,111,0.37);
+    -moz-box-shadow: 1px 4px 10px 4px rgba(115,111,111,0.37);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #dddddd;
+}
+
+.content-area {
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.tbl {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btnCell {
+    display: block;
+    margin-right: 5px;
+}
+
+.tableoutput {
+    display: block;
+    width: 100%;
+
+}
+
+.myOwnBtn-1 {
+    background-color: #e67070;
+    color: #ffffff;
+    border: none;
+}
+
+.myOwnBtn-1:hover {
+    background-color: #dc4205;
+    color: #ffffff;
+    border: none;
+}
+
+
+.submit-btn {
+    background-color: transparent;
+    color: #45B954;
+    border: none;
+    border:1px solid #45B954;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #038014;
+    
+}
+
+
+.clear-btn {
+    background-color: transparent;
+    border:1.5px solid #f06915;
+    color: #f06915;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+}
+
+.clear-btn:hover {
+    background-color: #f06915;
+    color: #ffffff;
+
+}
+
+.table{
+    margin: 30px 0 0 0;
+}
+
+h2.note-title-content {
+    margin: 30px 0 0 0;
+    font-size: 22px;
+    text-align: left;
+}
+
+
+@media only screen and (max-width:580px) {
+    .mainWindow {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .content-area {
+        width: 100% !important;
+        margin: 0 10px !important;
+    }
+    
+}
+
+@media only screen and (max-width:480px) {
+    .mainWindow {
+        width: 100% !important;
+        margin: 0 15px !important;
+    }
+    .content-area {
+        width: 100% !important;
+        margin: 0 10px !important;
+    }
+    
+}
+
+@media only screen and (max-width:320px) {
+    .mainWindow {
+        width: 100% !important;
+        margin: 0 15px !important;
+    }
+    .content-area {
+        width: 100% !important;
+        margin: 0 10px !important;
+    }
+    
+}

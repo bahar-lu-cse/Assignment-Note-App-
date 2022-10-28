@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>note app</title>
+</head>
+
+<body class="justify-content-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="small-container border mainWindow">
+                <h1 class="h3 mb-3 font-weight-normal">Note Pad:</h1>
+                <form action=" ">
+                    <input class="inputBox form-control myOwnInput" id="item" type="text" placeholder="Write your note"
+                        required>
+                </form>
+
+                <button class="btn btn-lg btn-primary submit-btn float-left" id="submit" type="button">Submit</button>
+                <button class="btn btn-lg btn-primary clear-btn float-right" id="clear" type="submit">Clear All</button>
+            </div>
+
+        </div>
+
+
+        <div class="row content-area">
+            <div class="note-title">
+                <h2 class="note-title-content">View All Note:</h2>
+            </div>
+        </div>
+
+        <div class="row content-area">
+
+            <table width="40%" class="tbl table">
+
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
